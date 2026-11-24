@@ -1,128 +1,106 @@
-# Project 01 — AI System Inventory & Classification
+# Project 01: AI System Inventory & Classification
 
-## Overview
+## Scenario
 
-This project presents a simulated AI governance assessment conducted for Meridian Retail Group, a Türkiye-based omnichannel retail organization operating across Türkiye and selected European markets.
+**Organisation:** Meridian Retail Group, a Türkiye-based omnichannel retail organization operating across Türkiye and selected European markets, with approximately 1,200 employees.
 
-The organization has adopted AI-enabled solutions across several business functions. However, AI adoption has evolved through decentralized departmental initiatives without a consistent governance structure, centralized inventory or standardized risk assessment methodology.
+**Problem:** AI adoption across Meridian Retail Group has grown through individual departmental initiatives. The organization lacks a centralized inventory of AI systems, consistent documentation practices and a structured approach to assessing AI-related risks and regulatory requirements.
 
-This project aims to establish a centralized AI system inventory and develop an initial classification and regulatory applicability assessment methodology.
+**Objective:** Develop a centralized AI system inventory, establish an initial classification approach and assess relevant regulatory requirements to support the organization's AI governance efforts.
 
-## Organization Profile
+## What This Project Demonstrates
 
-| Attribute | Description |
+- Understanding of AI governance principles and organizational oversight.
+- Ability to identify and document AI use cases across business functions.
+- Application of risk-based AI governance and proportionality.
+- Ability to assess AI use cases against relevant regulatory requirements.
+- Practical application of the NIST AI Risk Management Framework.
+- Ability to translate governance and regulatory requirements into structured deliverables.
+
+## Portfolio Overview
+
+| System ID | System | Business Function | Assessment Status |
+|---|---|---|---|
+| MR-AI-001 | CustomerPulse | Customer Support | Pending Assessment |
+| MR-AI-002 | DemandCast | Supply Chain | Pending Assessment |
+| MR-AI-003 | PromoGen | Marketing | Pending Assessment |
+| MR-AI-004 | FraudShield | Payment Operations | Pending Assessment |
+| MR-AI-005 | TalentMatch | Human Resources | Pending Assessment |
+| MR-AI-006 | SmartSearch | E-commerce | Pending Assessment |
+| MR-AI-007 | DocuFlow AI | Finance Operations | Pending Assessment |
+| MR-AI-008 | StoreVision | Store Operations | Pending Assessment |
+
+## Artefacts
+
+| File | Description |
 |---|---|
-| Organization | Meridian Retail Group |
-| Industry | Retail & E-commerce |
-| Headquarters | Türkiye |
-| Market Presence | Türkiye and selected European markets |
-| Employees | 1,200 |
-| Business Model | Omnichannel retail |
-| AI Maturity | Early-stage, decentralized AI adoption |
+| `ai-system-inventory.csv` | Centralized inventory documenting AI systems, business purposes, ownership, data categories and operational context. |
+| `eu-ai-act-classification.md` | Classification assessment of identified systems against relevant EU AI Act provisions. |
+| `nist-rmf-mapping.md` | Mapping of governance considerations to NIST AI RMF functions and categories. |
+| `regulatory-applicability.md` | Assessment of relevant regulatory requirements across Türkiye and applicable European markets. |
 
-Meridian Retail Group is a simulated organization developed for this governance case study.
+## Key Decisions & Rationale
 
-## Background & Governance Challenges
+**Why establish an AI system inventory?**
 
-AI adoption across the organization has evolved through individual departmental initiatives. AI-enabled tools are being introduced to support business operations, customer interactions, analytics and decision-making processes.
+An organization needs visibility into the AI systems it uses before it can effectively assess or manage associated risks. A centralized inventory helps identify AI use cases across departments, document their characteristics and establish a foundation for accountability and oversight.
 
-Despite the growing use of AI, the organization lacks a centralized governance structure to manage AI-related risks and oversight.
+**Why use a risk-based approach?**
 
-Initial governance challenges include:
+AI systems can affect individuals, business operations and organizational decision-making in different ways. Governance activities should reflect the nature of each system, its intended purpose, potential impact and applicable requirements. Classification helps determine which systems require more extensive assessment and oversight.
 
-- Lack of a centralized AI system inventory.
-- Inconsistent identification and documentation of AI use cases.
-- Unclear ownership and accountability for AI systems.
-- Limited visibility into data processing practices.
-- Absence of a standardized AI risk assessment methodology.
-- Limited integration of regulatory considerations into AI adoption processes.
+**Why separate inventory from classification?**
 
-## Assessment Objectives
+Inventory development focuses on identifying and documenting AI systems. Classification evaluates the documented characteristics of those systems against defined criteria. Separating these activities helps ensure that classification decisions are based on documented information and a consistent methodology.
 
-This assessment aims to:
+**Why use a CSV for the inventory?**
 
-- Identify and document AI systems used across the organization.
-- Establish a centralized AI system inventory.
-- Define an initial AI system classification methodology.
-- Identify relevant legal and regulatory considerations.
-- Map AI risk management practices to selected frameworks.
-- Identify governance gaps and recommend initial governance measures.
+A structured inventory makes AI system information easier to maintain, search, filter and review. It also provides a format that can be used in reporting and integrated into governance, risk and compliance processes.
 
-## Assessment Scope
+**Why apply the NIST AI RMF?**
 
-The assessment covers selected AI systems used across the organization's business functions, including:
+The NIST AI Risk Management Framework provides a structured approach to managing AI-related risks through its Govern, Map, Measure and Manage functions. Mapping identified governance considerations to the framework helps organize risk management activities and identify areas requiring further attention.
 
-- Customer Support
-- Supply Chain
-- Marketing
-- Payment Operations
-- Human Resources
-- E-commerce
-- Finance Operations
-- Store Operations
+**Simulated organization, realistic use cases**
 
-The assessment considers organizational, regulatory, operational and technology-related governance aspects associated with the identified AI systems.
+Meridian Retail Group is a simulated organization developed for this case study. The AI use cases represent hypothetical scenarios based on common retail business applications. Assessment decisions will be supported by documented assumptions, defined criteria and assessment rationale.
 
-## Assessment Framework
-
-The assessment draws on relevant regulatory requirements, risk management frameworks and AI governance standards.
+## Frameworks & Regulatory References
 
 ### Regulatory & Legal References
 
 - EU Artificial Intelligence Act (EU AI Act)
 - General Data Protection Regulation (GDPR)
-- Türkiye's Personal Data Protection Law (KVKK)
-- Applicable sector-specific legislation and regulatory requirements
+- Türkiye's Personal Data Protection Law (KVKK, Law No. 6698)
+- Relevant sector-specific and jurisdictional requirements, where applicable
 
 ### Risk Management & Governance Frameworks
 
 - NIST AI Risk Management Framework (AI RMF)
-- ISO/IEC 42001 — Artificial Intelligence Management System
+- ISO/IEC 42001: Artificial Intelligence Management System
 
-References will be considered according to their respective legal status, applicability and relevance to the assessed use cases.
-
-## Project Deliverables
-
-The assessment will produce the following deliverables:
-
-| Deliverable | Description |
-|---|---|
-| AI System Inventory | Centralized register of identified AI systems and use cases |
-| EU AI Act Classification Assessment | Initial assessment of AI systems against relevant EU AI Act provisions |
-| NIST AI RMF Mapping | Mapping of governance activities to NIST AI RMF functions and categories |
-| Regulatory Applicability Assessment | Analysis of relevant regulatory considerations across Türkiye and applicable European jurisdictions |
-| Governance Recommendations | Initial recommendations addressing identified governance gaps |
+The applicability of these references will be assessed according to the organization's operating context, the purpose of each AI system and relevant legal requirements.
 
 ## Assessment Methodology
 
-The assessment follows a structured approach:
-
-1. AI system identification and inventory development.
-2. Documentation of system purposes, ownership, data and operational context.
-3. Initial AI system classification.
-4. Regulatory applicability analysis.
-5. Framework mapping.
-6. Identification of governance gaps.
-7. Development of initial governance recommendations.
+1. Identify AI systems and use cases across business functions.
+2. Document system purpose, ownership, technology, data and operational context.
+3. Define initial classification criteria.
+4. Assess relevant regulatory applicability.
+5. Apply classification criteria to identified AI systems.
+6. Map governance considerations to NIST AI RMF.
+7. Identify governance gaps and develop recommendations.
 
 ## Assessment Limitations
 
-This project is a simulated governance assessment developed for research, portfolio and educational purposes.
+This project is a simulated AI governance assessment developed for research, portfolio and educational purposes.
 
-The assessment is based on hypothetical organizational information and assumed AI use cases. It does not constitute legal advice, a formal certification assessment or a determination of regulatory compliance.
+The assessment is based on hypothetical organizational information and assumed AI use cases. Classification and regulatory applicability conclusions are subject to the assumptions, scope and evidence documented within the case study.
 
-Regulatory applicability and classification conclusions are subject to the assumptions, scope and evidence available within the case study.
-
-## Project Structure
-
-- `README.md` — Project overview, objectives, scope and methodology.
-- `ai-system-inventory.csv` — Centralized AI system inventory.
-- `eu-ai-act-classification.md` — EU AI Act classification assessment.
-- `nist-rmf-mapping.md` — Mapping to NIST AI RMF.
-- `regulatory-applicability.md` — Regulatory applicability assessment.
+This project does not constitute legal advice, a formal certification assessment or a determination of regulatory compliance.
 
 ## Project Status
 
 **Status:** In Progress
 
-The project is being developed incrementally, with assessment decisions, methodology and supporting documentation being documented throughout the process.
+The inventory and classification methodology are being developed incrementally. Assessment decisions, assumptions and supporting rationale will be documented throughout the project.
